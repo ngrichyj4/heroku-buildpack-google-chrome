@@ -108,7 +108,7 @@ fi
 
 topic "Installing Google Chrome from the $channel channel."
 
-CHROME_VERSION=87.0.4280.88-1
+CHROME_VERSION=81.0.4044.129-1
 PACKAGES="$PACKAGES https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_${CHROME_VERSION}_amd64.deb"
 
 APT_CACHE_DIR="$CACHE_DIR/apt/cache"
